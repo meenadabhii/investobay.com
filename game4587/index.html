@@ -842,7 +842,6 @@
     </script>
 
     <script>
-        window.googletag = window.googletag || { cmd: [] };
         var anchorSlot;
         googletag.cmd.push(function () {
             anchorSlot = googletag.defineOutOfPageSlot('/21952429235/sahajanand_investobay.com_native', googletag.enums.OutOfPageFormat.BOTTOM_ANCHOR);
@@ -894,14 +893,10 @@
                 setTimeout(function () {
                     console.log("2 seconds elapsed, showing rewarded ad...");
                     showRewardedAd();
-                }, 2000); // 2000 milliseconds = 2 seconds
+                }, 1000); // 2000 milliseconds = 2 seconds
             });
         })();
     </script>
-
-
-
-
 
 </body>
 
